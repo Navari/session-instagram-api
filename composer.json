@@ -1,0 +1,28 @@
+{
+    "name": "navari/session-instagram-api",
+    "description": "Fetch instagram data with session_id and cookie",
+    "type": "library",
+    "require": {
+        "psr/simple-cache": "^1.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "psr/http-client": "^1.0",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Celalettin YILMAZ",
+            "email": "celalettin1986@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Navari\\Instagram\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Navari\\Instagram\\Tests\\": "tests/"
+        }
+    }
+}
